@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee"
+         xmlns:xsi="http://w3.org"
+         xsi:schemaLocation="https://jakarta.ee https://jakarta.ee/web-app_5_0.xsd"
+         version="5.0">
+         
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>StudentsList</servlet-name>
+        <display-name>StudentsList</display-name>
+        <description></description>
+        <servlet-class>lab.web.StudentsList</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>StudentsList</servlet-name>
+        <url-pattern>/StudentsList</url-pattern>
+    </servlet-mapping>
+
+</web-app>
